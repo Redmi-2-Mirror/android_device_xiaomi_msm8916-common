@@ -45,6 +45,7 @@ debug.sf.latch_unsignaled=1
 persist.hwc.mdpcomp.enable=true
 persist.hwc.ptor.enable=true
 persist.hwc.pubypass=true
+persist.log.tag.OpenGLRenderer=S
 
 # Media
 
