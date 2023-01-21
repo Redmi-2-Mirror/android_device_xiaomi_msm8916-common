@@ -78,3 +78,4 @@ ro.soc.model=MSM8916
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.enable_transaction_tracing=false
 bluetooth.le.disable_apcf_extended_features=1
+bluetooth.sco.disable_enhanced_connection=1
