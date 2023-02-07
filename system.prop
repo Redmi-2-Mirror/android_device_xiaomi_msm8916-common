@@ -8,7 +8,6 @@ vendor.audio.offload.buffer.size.kb=64
 vendor.audio.offload.gapless.enabled=true
 vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
-
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=7
 
@@ -33,9 +32,6 @@ bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
 
-## QPR2 Bluetooth Fix by 0xCAFEBABE
-bluetooth.le.disable_apcf_extended_features=1
-
 # Display
 debug.enable.sglscale=1
 debug.hwui.use_buffer_age=false
@@ -49,7 +45,6 @@ persist.hwc.pubypass=true
 persist.log.tag.OpenGLRenderer=S
 
 # Media
-
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 drm.service.enabled=1
@@ -67,16 +62,19 @@ persist.radio.add_power_save=1
 persist.radio.apm_sim_not_pwdn=1
 ro.telephony.call_ring.multiple=false
 
-# System
-ro.kernel.ebpf.supported=false
-persist.sys.binary_xml=false
-ro.vndk.version=current
-
 # Wi-Fi
 wifi.interface=wlan0
 
 # Display - MSM8916
 ro.opengles.version=196608
 ro.min_freq_0=800000
-ro.soc.manufacturer=Qualcomm
+
+# Props for Android S+
+ro.kernel.ebpf.supported=false
+persist.sys.binary_xml=false
+ro.vndk.version=current
+ro.soc.manufacturer=QTI
 ro.soc.model=MSM8916
+debug.sf.predict_hwc_composition_strategy=0
+debug.sf.enable_transaction_tracing=false
+bluetooth.le.disable_apcf_extended_features=1
