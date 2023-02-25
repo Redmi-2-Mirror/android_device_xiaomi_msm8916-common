@@ -46,52 +46,6 @@ persist.hwc.mdpcomp.enable=true
 persist.hwc.ptor.enable=true
 persist.hwc.pubypass=true
 
-
-
-# Boot
-sys.vendor.shutdown.waittime=500 
-ro.build.shutdown_timeout=0 
-
-# Camera
-camera2.portability.force_api=1
-camera.disable_treble=true
-camera2.portability.force_api=1
-debug.camcorder.disablemeta=true
-ro.camera.enableLazyHal=true
-
-# Charger
-ro.charger.disable_init_blank=true
-ro.charger.enable_suspend=true
-
-# Connectivity Engine
-persist.cne.dpm=0 
-persist.cne.feature=0 
-persist.dpm.feature=0
-
-# Dalvik
-dalvik.vm.heapstartsize=4m
-dalvik.vm.heapgrowthlimit=80m
-dalvik.vm.heapsize=256m
-dalvik.vm.heaptargetutilization=0.75
-dalvik.vm.heapminfree=512k
-dalvik.vm.heapmaxfree=8m
-
-# Data modules
-persist.data.netmgrd.qos.enable=false 
-
-# fastbootd
-ro.fastbootd.available=true
-
-# FM
-ro.fm.transmitter=false
-
-# GPS
-persist.gps.qc_nlp_in_use=1
-persist.loc.nlp_name=com.qualcomm.location
-ro.gps.agps_provider=1
-ro.pip.gated=0
->>>>>>> 44edaf9 (msm8916-common: Update BT props)
-
 # Media
 
 debug.stagefright.omx_default_rank.sw-audio=1
