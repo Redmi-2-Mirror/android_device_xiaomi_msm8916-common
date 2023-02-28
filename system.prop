@@ -76,3 +76,9 @@ ro.vndk.version=current
 
 # Wi-Fi
 wifi.interface=wlan0
+
+# Display - MSM8916
+ro.opengles.version=196608
+ro.min_freq_0=800000
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=MSM8916
