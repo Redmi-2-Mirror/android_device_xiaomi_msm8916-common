@@ -17,9 +17,6 @@ ro.config.vc_call_vol_steps=7
 bluetooth.device.class_of_device=90,2,12
 vendor.bluetooth.soc=pronto
 vendor.qcom.bluetooth.soc=pronto
-ro.bluetooth.dun=true
-ro.bluetooth.hfp.ver=1.7
-ro.bluetooth.sap=true
 ro.qualcomm.bt.hci_transport=smd
 bluetooth.hardware.power.operating_voltage_mv=3300
 bluetooth.profile.asha.central.enabled?=true
@@ -55,9 +52,6 @@ debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 drm.service.enabled=1
 vidc.enc.narrow.searchrange=1
-
-# Memory optimizations
-ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Perf
 ro.config.max_starting_bg=8
