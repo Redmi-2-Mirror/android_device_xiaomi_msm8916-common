@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-PLATFORM_PATH := device/cyanogen/msm8916-common
+PLATFORM_PATH := device/xiaomi/msm8916-common
 
 # We copy prebuilt binaries and libs instead of packaging them
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
@@ -99,7 +99,7 @@ BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
 BOARD_RAMDISK_OFFSET := 0x02000000
 
 TARGET_KERNEL_CLANG_COMPILE := false
-TARGET_KERNEL_SOURCE := kernel/cyanogen/msm8916
+TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8916
 
 TARGET_KERNEL_OPTIONAL_LD := true
 
