@@ -50,14 +50,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml
 
-# Bluetooth
-# PRODUCT_PACKAGES += \
-#     libbt-vendor
-
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-impl \
     android.hardware.bluetooth@1.0-service \
-    audio.bluetooth.default
+    audio.bluetooth.default \
+    libbt-vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.1-impl \
