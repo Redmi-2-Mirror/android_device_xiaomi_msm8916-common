@@ -20,8 +20,8 @@ cc_library_shared {
 }
 
 cc_library_shared {
-    name: "libshims_powermanager_msm8916",
-    srcs: ["powermanager/powermanager_msm8916.c"],
+    name: "libshims_powermanager",
+    srcs: ["powermanager/powermanager.c"],
     shared_libs: ["libpowermanager"],
     soc_specific: true,
 }
