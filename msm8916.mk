@@ -34,7 +34,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     audio.r_submix.default \
     audio.usb.default \
-    libaudio-resampler
+    libaudio-resampler \
+    libaudioroute
 
 PRODUCT_PACKAGES += \
     audio.primary.msm8916 \
@@ -167,7 +168,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libminijail:32
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_codecs_$(TARGET_BOARD_PLATFORM_VARIANT).xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
