@@ -80,3 +80,4 @@ debug.sf.enable_transaction_tracing=false
 bluetooth.le.disable_apcf_extended_features=1
 bluetooth.sco.disable_enhanced_connection=1
 bluetooth.core.le.vendor_capabilities.enabled=false
+ro.hardware.egl=adreno
