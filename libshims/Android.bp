@@ -23,7 +23,7 @@ cc_library_shared {
     name: "libshims_powermanager",
     srcs: ["powermanager/powermanager.c"],
     shared_libs: ["libpowermanager"],
-    soc_specific: true,
+    //soc_specific: true,
 }
 
 cc_library_shared {
